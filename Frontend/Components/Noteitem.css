@@ -1,0 +1,22 @@
+/* styles.css  for the when hovering on the card it will show the buttons  */ 
+/* .btn-hidden {
+  display: none;
+} 
+
+.card:hover .btn-hidden {
+  display: block;
+} */
+
+
+  .card {
+    /* Add your existing card styles here */
+  
+    /* Set up the transition for the transform property */
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    /* Apply the transform effect on hover */
+    transform: scale(1.05); /* You can adjust the scale factor as desired */
+  }
+  
